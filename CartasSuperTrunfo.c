@@ -14,6 +14,16 @@ int main() {
   float pib1;
   int pontos1;
 
+  // Definição das variáveis Carta2:
+  char estado2[4];
+  char codigo2[5];
+  char cidade2[20];
+  float area2;
+  float pib2;
+  int pontos2;
+
+
+
   // Área para entrada de dados
 
   // Área para exibição dos dados da cidade
