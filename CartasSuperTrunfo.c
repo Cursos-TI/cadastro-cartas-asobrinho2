@@ -73,8 +73,17 @@ printf("Carta 2\n");
   printf("Pontos: ");
   scanf("%d", &pontos2);
 
+// Área para exibição dos dados da cidade
+// Saida de dados carta1:
 
-  // Área para exibição dos dados da cidade
+  printf("Estado: %s\n", estado1);
+  printf("Codigo: %%s\n", codigo1);
+  printf("Cidade: %s\n", cidade1);
+  printf("Populacao: %d\n", populacao1);
+  printf("Area: %f\n", area1);
+  printf("Pib: %f\n", pib1);
+  printf("PontosTur: %d\n",pontos1);
+
 
 return 0;
 } 
