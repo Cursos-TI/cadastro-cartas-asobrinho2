@@ -10,6 +10,7 @@ int main() {
   char estado1[4];
   char codigo1[5];
   char cidade1[20];
+  int populacao1;
   float area1;
   float pib1;
   int pontos1;
@@ -18,13 +19,37 @@ int main() {
   char estado2[4];
   char codigo2[5];
   char cidade2[20];
+  int populacao2;
   float area2;
   float pib2;
   int pontos2;
 
+  // Área para Entrada de dados Carta1:
+
+  printf("Carta 1\n");
+
+  printf("Estado: ");
+  scanf("%s", estado1);
+
+  printf("Codigo: ");
+  scanf("%s", &codigo1);
+
+  printf("Cidade: ");
+  scanf("%s", &cidade1);
+
+  printf("Populacao: ");
+  scanf("%d",&populacao1);
+
+  printf("Area: ");
+  scanf("%f", &area1);
+
+  printf("Pib: ");
+  scanf("%f", &pib1);
+
+  printf("Pontos: ");
+  scanf("%d", &pontos1);
 
 
-  // Área para entrada de dados
 
   // Área para exibição dos dados da cidade
 
