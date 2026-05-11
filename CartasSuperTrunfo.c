@@ -84,6 +84,17 @@ printf("Carta 2\n");
   printf("Pib: %f\n", pib1);
   printf("PontosTur: %d\n",pontos1);
 
+// Área para exibição dos dados da cidade
+// Saida de dados carta2:
+
+printf("Estado: %s\n", estado2);
+printf("Codigo: %%s\n", codigo2);
+printf("Cidade: %s\n", cidade2);
+printf("Populacao: %d\n", populacao2);
+printf("Area: %f\n", area2);
+printf("Pib: %f\n", pib2);
+printf("PontosTur: %d\n",pontos2);
+
 
 return 0;
 } 
